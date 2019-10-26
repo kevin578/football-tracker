@@ -53,7 +53,7 @@ const App = props => {
             onChange={e => handleSpreadChange(e, game.game_id)}
             value={spreads[game.game_id]}
           />
-          <Pick
+          {/* <Pick
             uncheckedIcon={false}
             checkedIcon={false}
             checked={true}
@@ -61,7 +61,7 @@ const App = props => {
             handleDiameter={15}
             width={35}
             height={20}
-          />
+          /> */}
         </ScoreContainer>
       );
     });
